@@ -17,7 +17,7 @@ RESTRICTED = re.compile(
     r"libra|scorpio|sagittarius|capricorn|aquarius|pisces|taylor\s+swift)\b",
     re.IGNORECASE,
 )
-REFUSAL = "I can't help with that topic. Ask me about course material, weather, or unit conversions."
+REFUSAL = "Thank you for asking; however, that story belongs to another lecture. Today's talk covers course material, weather, and unit conversions."
 
 
 def restricted_request(state: MessagesState) -> bool:

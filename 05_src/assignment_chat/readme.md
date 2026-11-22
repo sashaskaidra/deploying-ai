@@ -1,6 +1,6 @@
 # Assignment 2: Course Chat Sample
 
-This sample is a Gradio conversation with three services. It uses a friendly Toronto voice and passes prior turns to the LangGraph model on each message.
+This sample is a Gradio conversation with three services. It uses the friendly voice of a political science lecturer and passes prior turns to the LangGraph model on each message.
 
 ## Run
 
@@ -27,3 +27,13 @@ Follow the [Assignment Submission Guide](https://github.com/UofT-DSI/onboarding/
 - Branch: `assignment-2`.
 - Submit the project files for the chat application in the pull request.
 - The pull request link should have the form `https://github.com/<your_github_username>/deploying-ai/pull/<pr_id>` and be visible in a private browser window.
+
+## Based on
+This chat is built on the course sample in `05_src/assignment_chat`.
+
+## My changes
+- Persona: a passionate political science lecturer who explains things like a short TED talk (`prompts.py`)
+- Refusal message rewritten in that voice (`main.py`)
+
+## Not done (ran out of time)
+- My own API service, my own dataset for search, and my own third tool. The three services are the sample's.
